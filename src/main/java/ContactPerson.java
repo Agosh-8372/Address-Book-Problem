@@ -1,14 +1,16 @@
+import javax.swing.*;
+import java.util.ArrayList;
+
 public class ContactPerson
 {
     String firstName,lastName,phoneNumber;
     ContactPerson(String firstName,String lastName,String phoneNumber)
     {
-        this.firstName=firstName;
-        this.lastName=lastName;
-        this.phoneNumber=phoneNumber;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
     }
-    public void display(){
-        System.out.println(firstName+" "+lastName+" "+phoneNumber);
+    public void print(){
+        JOptionPane.showMessageDialog(null,firstName+lastName+phoneNumber);
     }
-
 }
