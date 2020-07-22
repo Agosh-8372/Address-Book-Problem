@@ -1,3 +1,4 @@
+
 import javax.swing.*;
 import java.util.*;
 public class AddressBook {
@@ -20,10 +21,5 @@ public class AddressBook {
         persons.add(p);
         address.add(pa);
     }
-    public void displayPerson(){
-        for(int i=0;i<=persons.size();i++){
-           ContactPerson p=(ContactPerson)persons.get(i);
-           p.print();
-        }
-    }
+
 }

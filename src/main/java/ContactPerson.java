@@ -10,7 +10,5 @@ public class ContactPerson
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
     }
-    public void print(){
-        JOptionPane.showMessageDialog(null,firstName+lastName+phoneNumber);
-    }
+
 }
