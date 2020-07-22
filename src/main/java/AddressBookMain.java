@@ -28,7 +28,6 @@ public class AddressBookMain
                 case 4:
                     System.exit(0);
                     break;
-
             }
         }
     }

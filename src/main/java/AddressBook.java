@@ -51,7 +51,6 @@ public class AddressBook {
             {
                 p.print();
                 persons.remove(i);
-                return;
             }
             else
                 JOptionPane.showMessageDialog(null,"No such record found");

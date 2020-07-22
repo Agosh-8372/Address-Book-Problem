@@ -46,7 +46,6 @@ public class ContactPerson
 
     public void print(){
         JOptionPane.showMessageDialog(null,firstName+lastName+phoneNumber+city+state+zip);
-        System.exit(0);
     }
 
 }
