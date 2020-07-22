@@ -10,5 +10,22 @@ public class ContactPerson
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
     }
+    public void setPhoneNumber(String sPhoneNum){
+        phoneNumber=sPhoneNum;
+    }
+    public String getFirstName(){
+        return firstName;
+    }
+    public String getLastName(){
+        return lastName;
+    }
+    public String getPhoneNumber(){
+        return phoneNumber;
+    }
+
+    public void print(){
+        JOptionPane.showMessageDialog(null,firstName+lastName+phoneNumber);
+        System.exit(0);
+    }
 
 }
