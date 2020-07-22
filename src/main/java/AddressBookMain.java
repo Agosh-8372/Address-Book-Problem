@@ -10,7 +10,7 @@ public class AddressBookMain
         AddressBook ab=new AddressBook();
         while(true)
         {
-            input = JOptionPane.showInputDialog("Enter 1 to add person\nEnter 2 to Edit\nEnter 3 to display\nEnter 4 to exit");
+            input = JOptionPane.showInputDialog("Enter 1 to add person\nEnter 2 to Edit\nEnter 3 to delete a record\nEnter 4 to exit");
             caseVal=Integer.parseInt(input);
             switch(caseVal)
             {
@@ -21,9 +21,9 @@ public class AddressBookMain
                     String name=JOptionPane.showInputDialog("Enter name to search");
                     ab.searchAndEdit(name);
                     break;
-
                 case 3:
-                    ab.displayPerson();
+                    String record=JOptionPane.showInputDialog("Enter name to delete");
+                    ab.delete(record);
                     break;
                 case 4:
                     System.exit(0);
