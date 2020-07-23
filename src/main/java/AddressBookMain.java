@@ -19,7 +19,7 @@ public class AddressBookMain
                     break;
                 case 2:
                     String name=JOptionPane.showInputDialog("Enter name to search");
-                    ab.searchAndEdit(name);
+                    ab.edit(name);
                     break;
                 case 3:
                     String record=JOptionPane.showInputDialog("Enter name to delete");
